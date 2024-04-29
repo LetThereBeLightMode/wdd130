@@ -2,3 +2,11 @@ nav {
    background-color: steelblue;
    padding: 2rem;
 }
+
+img {
+   width: 5rem;
+   height: auto;
+   border: .5rem;
+   padding: 2rem;
+   box-shadow: 0 0 30px gray;
+}
