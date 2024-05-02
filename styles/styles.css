@@ -1,26 +1,49 @@
 main {
    max-width: 840px;
+}
+
+nav {
+   background-color: #535b80;
+   accent-color: rgb(88, 135, 88);
+}
+
+nav a {
+   font-weight: 800;
+   color: rgb(237, 237, 224);
+   padding: .5rem;
+   border: 1rem;
    
 }
 
 aside {
-   width: 10rem;
+   width: 500px;
    margin: 10px;
-   border: 5;
+   border: 10px;
    padding: 1px;
    background-color: #535b80;
    color: beige;
+   text-align: center;
+}
+aside img {
+   width: 200px;
+   height: auto;
 }
 
-/* nav {
-   background-color: steelblue;
-   padding: 2rem;
+main img {
+   width: 200px;
+   height: auto;
+}
+
+p {padding: 0;}
+
+nav {
+   padding: .5rem;
 }
 
 img {
    width: 5rem;
    height: auto;
-   border: .5rem;
-   padding: 2rem;
+   border: 0;
+   padding: 0;
    box-shadow: 0 0 30px gray;
-} */
+}
