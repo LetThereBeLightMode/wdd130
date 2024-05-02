@@ -47,3 +47,11 @@ img {
    padding: 0;
    box-shadow: 0 0 30px gray;
 }
+
+h1 {
+   max-width: 1200;
+}
+
+footer {
+   opacity: .5;
+}
