@@ -1,3 +1,7 @@
+* {
+   font-family: "Montserrat", sans-serif;
+}
+
 main {
    max-width: 840px;
 }
@@ -16,7 +20,7 @@ nav a {
 }
 
 aside {
-   width: 500px;
+   width: 12rem;
    margin: 10px;
    border: 10px;
    padding: 1px;
@@ -24,8 +28,14 @@ aside {
    color: beige;
    text-align: center;
 }
+
+aside h2 {
+   font-size: .7rem;
+   padding: .1rem;
+}
+
 aside img {
-   width: 200px;
+   width: 75px;
    height: auto;
 }
 
