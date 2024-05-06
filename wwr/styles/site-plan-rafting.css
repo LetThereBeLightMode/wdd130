@@ -6,3 +6,23 @@
 --eerie-black: #1b1b1eff;
 
 /* https://coolors.co/d8dbe2-a9bcd0-58a4b0-373f51-1b1b1e */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+   font-family: "Montserrat", sans-serif;
+   max-width: 960;
+   padding: 20;
+}
+
+/* :root {
+   --primary-color: #a9bcd0ff;
+   --secondary-color: #58a4b0ff;
+   --accent1-color: #d8dbe2ff;
+   --accent2-color: #373f51ff;
+
+   --heading-font: "Montserrat", sans-serif, font-weight=600;
+   --paragraph-font: "Montserrat", sans-serif, font-weight=400;
+
+
+} */
