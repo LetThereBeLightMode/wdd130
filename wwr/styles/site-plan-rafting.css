@@ -1,9 +1,9 @@
 /* CSS HEX */
---platinum: #d8dbe2ff;
+/* --platinum: #d8dbe2ff;
 --powder-blue: #a9bcd0ff;
 --moonstone: #58a4b0ff;
 --charcoal: #373f51ff;
---eerie-black: #1b1b1eff;
+--eerie-black: #1b1b1eff; */
 
 /* https://coolors.co/d8dbe2-a9bcd0-58a4b0-373f51-1b1b1e */
 
@@ -26,6 +26,17 @@ body {
 
 }
 
-<p> {
+p {
    padding: 25px;
 }
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: var(--heading-font);
+   color: var(--secondary-color);
+}
+
+header {
+   padding: 20px;
+   background-color: var(--accent1-color);
+}
+
