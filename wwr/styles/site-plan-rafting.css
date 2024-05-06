@@ -24,6 +24,10 @@ body {
    --heading-font: "Montserrat", sans-serif, font-weight=600;
    --paragraph-font: "Montserrat", sans-serif, font-weight=400;
 
+   --nav-background-color: #d8dbe2ff;
+   --nav-link-color: var(--accent1-color);
+   --nav-hover-link-color: var(--accent2-color);
+   --nav-hover-background-color: var(--accent1-color);    
 }
 
 p {
@@ -40,3 +44,24 @@ header {
    background-color: var(--accent1-color);
 }
 
+nav {
+   background-color: var(--nav-background-color);
+   font-size: 1.20rem;
+   display: flex;
+   }
+
+nav a {
+   display: block;
+   color: var(--nav-link-color);
+   text-decoration: none;
+   padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+   color: var(--nav-hover-background-color);
+   background-color: aqua;
+}
