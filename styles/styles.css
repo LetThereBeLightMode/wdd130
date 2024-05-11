@@ -1,10 +1,12 @@
 * {
-   font-family: "Montserrat", sans-serif;
-   margin: .1rem;
-   padding: auto;
+   margin: 0;
+   padding: 0;
    box-sizing: border-box;
 }
 
+* {
+   font-family: "Montserrat", sans-serif;
+}
 main {
    max-width: 840px;
 }
@@ -53,6 +55,8 @@ main img {
 main ul {
    clear: left;
    width: 20rem;
+   background-color: aliceblue;
+   border-color: blue;
 }
 
 p {padding: 0;}
