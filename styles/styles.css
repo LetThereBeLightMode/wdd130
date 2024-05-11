@@ -1,3 +1,10 @@
+/* todo
+fix the color of temple links
+why eagle so small
+picture a lil wonky location
+some padding allowed in the universal selector would be nice. 
+ */
+
 * {
    margin: 0;
    padding: 0;
@@ -33,6 +40,7 @@ aside {
    background-color: #535b80;
    color: beige;
    text-align: center;
+   position: relative;
 }
 
 aside h2 {
@@ -44,6 +52,7 @@ aside img {
    width: 75px;
    height: auto;
 }
+
 
 main img {
    width: 200px;
