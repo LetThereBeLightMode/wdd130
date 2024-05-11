@@ -100,12 +100,12 @@ footer {
 }
 
 aside {
-   width: 20em;
+   width: 10rem;
    text-align: center;
    position: relative;
 }
-/* 
+
 aside h2 {
    position: absolute;
-} */
+}
 
