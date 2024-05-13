@@ -9,7 +9,7 @@
    --heading-font: "Montserrat", sans-serif, font-weight=600;
    --paragraph-font: "Montserrat", sans-serif, font-weight=400;
 
-   --nav-background-color: #d8dbe2ff;
+   --nav-background-color: #a9bcd0ff;
    --nav-link-color: var(--accent1-color);
    --nav-hover-link-color: var(--accent2-color);
    --nav-hover-background-color: var(--accent1-color);    
@@ -22,16 +22,36 @@
    max-width: 960px;
 }
 
+header {
+   background-color: var(--nav-background-color);
+   padding: 1em;
+   text-align: center;
+}
+
 a {
    text-decoration: none;
 }
 
+
 main div {
    position: relative;
+   ;
 }
 
 main div img {
    float: right;
+   width: 360px;
+   height: auto;
+   margin: 1em;
+}
+
+main article {
+   position: relative;
+   clear: both;
+}
+
+section {
+   
 }
 
 main div h1 {
@@ -39,8 +59,10 @@ main div h1 {
    font-size: 2.5em;
    color: var(--primary-color);
    margin-top: 1em;
+   clear: both;
 }
 
 .hero {
    position: absolute;
+   top: 25px;
 }
