@@ -4,6 +4,7 @@ why eagle so small
 picture a lil wonky location
 some padding allowed in the universal selector would be nice. 
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
    margin: 0;
