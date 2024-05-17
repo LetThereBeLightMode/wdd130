@@ -15,8 +15,10 @@ some padding allowed in the universal selector would be nice.
 * {
    font-family: "Montserrat", sans-serif;
 }
+
 main {
-   max-width: 840px;
+   grid-column: 2/3;
+   margin: 1rem;
 }
 
 nav {
@@ -28,8 +30,8 @@ nav {
 nav a {
    font-weight: 800;
    color: rgb(252, 187, 102);
-  
-   
+   text-decoration: none;
+      
 }
 
 aside {
@@ -41,6 +43,11 @@ aside {
    color: beige;
    text-align: center;
    position: relative;
+   width: 20rem;
+   position: relative;
+   grid-column: 1/2;
+   grid-row: 1/2;
+
 }
 
 aside h2 {
@@ -49,7 +56,7 @@ aside h2 {
 }
 
 aside img {
-   width: 75px;
+   width: 95%;
    height: auto;
 }
 
@@ -72,6 +79,10 @@ p {padding: 0;}
 
 nav {
    padding: .5rem;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 15px;
 }
 
 img {
@@ -83,7 +94,8 @@ img {
 }
 
 h1 {
-   max-width: 1200px;
+   max-width: 840px;
+   border-bottom: 2px solid var(#353a52);
 }
 
 footer {
@@ -97,18 +109,36 @@ footer {
    padding: 1rem;
    background-color: #353a52;
    color: rgb(252, 187, 102);
+   link-color:;
 }
 
 aside {
-   width: 10rem;
+   width: 20rem;
+   height: 100%;
    text-align: center;
    position: relative;
+   grid-row: 1/2;
+   grid-column: 1/2;
 }
 
 aside h2 {
+   color: black;
+   text-shadow: 1px 1px 1px white;
    position: absolute;
+   top: 25px;
+   left: 30px;
 }
 
 a {
    text-decoration: none;
+}
+
+header, footer{
+   max-width: 840px;
+   margin: 0 auto;
+}
+
+header, .grid, footer {
+   display: grid;
+   align-items: center;
 }

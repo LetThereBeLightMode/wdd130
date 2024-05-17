@@ -29,6 +29,10 @@ header {
    text-align: center;
 }
 
+header nav a {
+   padding: 3px;
+}
+
 a {
    text-decoration: none;
 }
@@ -36,7 +40,6 @@ a {
 
 main div {
    position: relative;
-   ;
 }
 
 main div img {
