@@ -31,6 +31,10 @@ header {
 
 header nav a {
    padding: 3px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: right;
+
 }
 
 a {
@@ -43,19 +47,14 @@ main div {
 }
 
 main div img {
-   float: right;
    width: 360px;
    height: auto;
    margin: 1em;
 }
 
 main article {
-   position: relative;
+   /* position: relative; */
    clear: both;
-}
-
-section {
-   
 }
 
 main div h1 {
@@ -67,6 +66,29 @@ main div h1 {
 }
 
 .hero {
-   position: absolute;
+   /* position: absolute; */
    top: 25px;
+}
+
+h1 {
+   position: relative;
+   bottom: 50px;
+   left: 50px;
+   text-shadow: 1px 1px 3px white;
+}
+
+nav {
+   display: flex;
+}
+
+nav a {
+   display: inline-block;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+
+}
+
+header nav img {
+   margin-right: 55px;
 }
