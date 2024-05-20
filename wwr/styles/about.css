@@ -19,7 +19,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   max-width: 960px;
+   max-width: 1040px;
    font-family: "Montserrat", sans-serif;
 }
 
@@ -91,4 +91,19 @@ nav a {
 
 header nav img {
    margin-right: 55px;
+}
+
+
+.collage {
+   display: flex;
+}
+
+h2 > .collage {
+   justify-content: center;
+
+}
+
+* > .collage {
+   clear : both;
+   
 }

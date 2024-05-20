@@ -69,7 +69,8 @@ main img {
 }
 
 main ul {
-   clear: left;
+   float: left;
+   /* clear: both; */
    width: 20rem;
    background-color: aliceblue;
    border-color: blue;
