@@ -95,7 +95,9 @@ header nav img {
 
 
 .collage {
-   display: flex;
+   display: grid;
+   flex-wrap: nowrap;
+   border: 3px dotted red;
 }
 
 h2 > .collage {
@@ -103,7 +105,25 @@ h2 > .collage {
 
 }
 
-* > .collage {
-   clear : both;
-   
+footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   background-color: var(--nav-background-color);
+}
+
+footer p {
+   font-size: large;
+   font-weight: 700;
+   flex: 1;
+   position: relative;
+   text-align: center;
+   justify-content: space-between;
+}
+
+footer nav {
+   display: flex;
+   position: relative;
+   justify-content: right;
 }
