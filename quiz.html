@@ -13,7 +13,7 @@
 </header>
 
 <body>
-   <h1>Welcome to My HMML quiz</h1>
+   <h1>Welcome to My HTML quiz</h1>
    <section>
       <h2>Question #1</h2>
       <form> 
@@ -31,13 +31,26 @@
    </section>
 
    <section>
-      <h2>Question #3, choose one option from the following:</h2>
+      <h2>Question #3</h2>
       <form> 
-         <label for="q3">What is the correct way to write a comment in HTML?</label>
-         <input type="radio" name="q3" value="<!--This is a comment-->">
-         <input type="radio" name="q3" value="#This is a comment">
-         <input type="radio" name="q3" value="<!-This is a comment->">
-         <input type="radio" name="q3" value="//This is a comment">
+         <p>What is the correct way to select a local file up one directory in an href?</p>
+         <select name="q3" id="q3">
+            <option value="../name_of_file.ext">../name_of_file.ext</option>
+            <option value="./name_of_file.ext">./name_of_file.ext</option>
+            <option value="^/name_of_file.ext">^/name_of_file.ext</option>
+            <option value=":/name_of_file.ext">:/name_of_file.ext</option>
+          </select>
+         <!-- <select name="q3" id="q3"></select>
+            <option value="* > section{}">"* > section{}"</option>
+            <option value="* < section {}">"* < section {}</option>
+            <option value="* child of section{}">* child of section{}</option>
+            <option value="section > * {}">section > * {}</option>
+         </select> -->
+         <!-- <label for="q3">What is the correct way to select children of a section in css?</label><br>
+         <input type="select" name="q3" value="* > section{}"><br>
+         <input type="select" name="q3" value="* < section {}"><br>
+         <input type="select" name="q3" value="* child of section{}"><br>
+         <input type="select" name="q3" value="section > * {}"> -->
       </form>
    </section>
 
@@ -49,6 +62,9 @@
       </form>
    </section>
 
+   <form> 
+      <input type="submit" value="Submit">
+   </form>
 </body>
 
 </html>
