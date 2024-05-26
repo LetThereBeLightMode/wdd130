@@ -6,8 +6,8 @@
    --accent1-color: #d8dbe2ff;
    --accent2-color: #373f51ff;
 
-   --heading-font: "Montserrat", sans-serif, font-weight=600;
-   --paragraph-font: "Montserrat", sans-serif, font-weight=400;
+   --heading-font: "Montserrat", sans-serif, font-weight: "600";
+   --paragraph-font: "Montserrat", sans-serif, font-weight: "400";
 
    --nav-background-color: #a9bcd0ff;
    --nav-link-color: var(--accent1-color);
