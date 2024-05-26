@@ -155,10 +155,12 @@ iframe {
 #personalid {
    display: flex;
    flex-direction: row;
+   justify-content: center;
    padding: 5px;
    margin: 5px;
    width: 100%;
    align-items: center;
+   scale: 1.2;
 }
 
 #submit {
@@ -180,4 +182,12 @@ input {
    display: ;
    padding: 5px;
    margin: 5px;
+}
+#inquiry {
+   display: flex;
+   padding: 5px;
+   margin: 5px;
+   width: 100%;
+   justify-content: center;
+   scale: 1.2;
 }

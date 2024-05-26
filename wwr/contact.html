@@ -51,8 +51,23 @@
       </p><br>
 
       <p>Find us In person !</p><br>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44426.483761326235!2d-106.7709137563631!3d38.94987015986077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716674855870!5m2!1sen!2sus" width="650" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </section>
+
+   <section>
+      <h3>Get To Know Our Employees</h3>
+      <img src="images/employee1.jpg" alt="Employee 1" width="200" name="employee1">
+      <caption for="employee1">This is Emil, hes the Goat</caption>
+      <img src="images/employee2.jpg" alt="Employee 2" width="200">
+      <caption>This is Sarah, She shreds customer complaints to bits</caption>
+      <img src="images/employee3.jpg" alt="Employee 3" width="200">
+      <caption>This is Bora, She takes long walks in the park</caption>
+      <img src="images/ceo.jpg" alt="CEO" width="200">
+      <caption>This is our CEO, he is a very busy and handsome</caption>
+   </section><br>
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44426.483761326235!2d-106.7709137563631!3d38.94987015986077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716674855870!5m2!1sen!2sus" width="650" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+   
     <form> 
       <section id="personalid">
       <label for="name">Name:</label><br>
@@ -62,14 +77,22 @@
       <input type="text" id="email" name="email"><br>
       </section>
 
-      <input type="radio" id="general" name="inquiry" value="General Inquiry">
-      <label for="general">General Inquiry</label><br>
+      <section id="inquiry">
+         <section>
+            <input type="radio" id="general" name="inquiry" value="General Inquiry">
+            <label for="general">General Inquiry</label><br>
+         </section>
 
-      <input type="radio" id="reservation" name="inquiry" value="Reservation Question">
-      <label for="reservation">Reservation Question</label><br>
+         <section>
+            <input type="radio" id="reservation" name="inquiry" value="Reservation Question">
+            <label for="reservation">Reservation Question</label><br>
+         </section>
 
-      <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion">
-      <label for="suggestion">Website Suggestion</label><br>
+         <section>
+            <input type="radio" id="suggestion" name="inquiry" value="Website Suggestion">
+            <label for="suggestion">Website Suggestion</label><br>
+         </section>
+      </section>
 
       <label for="message">Message:</label><br>
       <textarea id="message" name="message"></textarea><br>
@@ -77,7 +100,8 @@
       <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
       <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
 
-      <input type="submit" value="Submit Feed Back or Questions!" id="submit">
+      <input type="submit" value="Submit Feed Back or Questions!" id="submit" name="submit">
+      <label for="submit">Submit Feed Back or Questions!</label>
     </form>
 </main>
 
