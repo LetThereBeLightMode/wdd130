@@ -190,3 +190,21 @@ input {
    justify-content: center;
    scale: 1.2;
 }
+
+.employees{
+   display: flex;
+   max-height: 200;
+   /* justify-self: center; ;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 1em; */
+   justify-content: space-between;
+   align-items: center;;
+
+}
+
+figcaption {
+   max-width: 100%;
+   text-align: center;
+}
