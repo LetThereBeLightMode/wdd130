@@ -21,7 +21,7 @@ body {
    box-sizing: border-box;
    font-family: "Montserrat", sans-serif;
    margin: 0 auto;
-   width: 50%;
+   width: 40%;
 
 * {
    margin: 0;
@@ -38,7 +38,7 @@ header {
    font-weight: 600;
    font-family: var(--heading-font);
    border-radius: 15px;
-
+   max-width: 100%;
 }
 
 p {
@@ -252,14 +252,17 @@ figcaption {
 }
 
 .breakdown_box {
+   max-width: 80%;
    display: flex;
-   padding: 10px;
-   justify-content: space-between;
-   align-self: center;
+   padding: 15px;
+   margin: 5px;
+   justify-content: space-around;
    border: 1px solid black;
    border-radius: 25px;
    font-size: medium;
    background-color: whitesmoke;
+   justify-self: center;
+   margin: auto;
 }
 .breakdown_sub_box {
    border: 1px solid black;
@@ -267,7 +270,14 @@ figcaption {
    padding: 15px;
    background-color: white;
    text-align: center;
+   margin: 5px;
 }
 .subheading {
   font-weight: bold;
+ 
+}
+
+h5 {
+   font-weight: bold;
+   border-bottom: 2px solid black;
 }
