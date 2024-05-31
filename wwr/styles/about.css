@@ -107,6 +107,7 @@ nav a {
 
 header nav img {
    margin-right: 55px;
+   border-radius: 50%;
 }
 
 
@@ -127,7 +128,7 @@ footer {
    align-items: center;
    position: relative;
    background-color: var(--nav-background-color);
-   max-width: 840px;
+   max-width: 100%;
 
 }
 
@@ -205,4 +206,33 @@ input {
 figcaption {
    max-width: 100%;
    text-align: center;
+}
+
+#big_contact_button {
+   width: 100%;
+   border 3px dotted red;
+   background-color: rgb(35, 35, 165);
+   color : white;
+   border-radius: 5px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 1.5em;
+
+}
+
+.options_for_trips {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 1em;
+}
+
+.options_for_trips img {
+   width: 360px;
+   height: auto;
+   margin: 1em;
 }
