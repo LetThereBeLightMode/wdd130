@@ -21,13 +21,15 @@ body {
    box-sizing: border-box;
    font-family: "Montserrat", sans-serif;
    margin: 0 auto;
-   width: 40%;
+   max-width: 80%;
+   conte
+}
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   max-width: 1040px;
+   max-width: 1200px;
    font-family: "Montserrat", sans-serif;
 }
 
@@ -38,7 +40,7 @@ header {
    font-weight: 600;
    font-family: var(--heading-font);
    border-radius: 15px;
-   max-width: 100%;
+   max-width: 1040px;
 }
 
 p {
@@ -132,8 +134,9 @@ footer {
    align-items: center;
    position: relative;
    background-color: var(--nav-background-color);
-   max-width: 100%;
+   max-width: 1040px;
    border-radius: 15px;
+   margin: 15px;
 }
 
 footer p {
@@ -242,17 +245,16 @@ figcaption {
    text-align: center;
    padding-top: .5em;
 }
- 
-}
+
 .options_for_trips img {
    width: 360px;
    height: auto;
-   margin: 1em;
+   padding: 1em;
    border-radius: 50px;
 }
 
 .breakdown_box {
-   max-width: 80%;
+   max-width: 940px;
    display: flex;
    padding: 15px;
    margin: 5px;
