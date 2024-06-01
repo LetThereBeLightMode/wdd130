@@ -53,13 +53,21 @@ p {
 header nav a {
    padding: 3px;
    display: flex;
+   padding-right: 8px;
+   padding-left: 8px;
    justify-content: space-evenly;
    align-items: center;
-
+   box-shadow: 1px 1px 1px rgb(0, 0, 0);
+   border-radius: 15px;
+   text-decoration: none;
+   color: black;
+   border: 2px solid #2a4a51;
+   margin: 5px;
+   background-color: #fbe6d5;
 }
 
-a {
-   text-decoration: none;
+header nav a:hover {
+   background-color: rgb(255, 255, 255) ;
 }
 
 
