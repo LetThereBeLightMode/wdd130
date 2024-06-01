@@ -1,1 +1,285 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+   --primary-color: #a9bcd0ff;
+   --secondary-color: rgb(13, 32, 36);
+   --accent1-color: #d8dbe2ff;
+   --accent2-color: #373f51ff;
+
+   --heading-font: "Montserrat", sans-serif;
+   --paragraph-font: "Montserrat", sans-serif;
+
+    --nav-background-color: #a9bcd0ff;
+   /*--nav-link-color: var(--accent1-color);
+   --nav-hover-link-color: var(--accent2-color);
+   --nav-hover-background-color: var(--accent1-color);     */
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+   margin: 0 auto;
+   max-width: 80%;
+   conte
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   max-width: 1200px;
+   font-family: "Montserrat", sans-serif;
+}
+
+header {
+   background-color: var(--nav-background-color);
+   padding: 1em;
+   text-align: center;
+   font-weight: 600;
+   font-family: var(--heading-font);
+   border-radius: 15px;
+   max-width: 1040px;
+}
+
+p {
+   font-family: var(--paragraph-font);
+   font-size: 1.1em;
+   color: var(--secondary-color);
+   margin: .3em;
+}
+
+header nav a {
+   padding: 3px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+
+main div {
+   position: relative;
+}
+
+main div img {
+   width: 360px;
+   height: auto;
+   margin: 1em;
+}
+
+main article {
+   /* position: relative; */
+   clear: both;
+}
+
+main div h1 {
+   font-family: var(--heading-font);
+   font-size: 2.5em;
+   color: var(--primary-color);
+   margin-top: 1em;
+   clear: both;
+}
+
+.hero {
+   /* position: absolute; */
+   top: 25px;
+}
+
+h1 {
+   position: relative;
+   text-align: center;
+   text-shadow: 1px 1px 3px white;
+   padding: 20px;
+}
+
+nav {
+   display: flex;
+}
+
+nav a {
+   display: inline-block;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+
+}
+
+header nav img {
+   margin-right: 55px;
+   border-radius: 50%;
+}
+
+
+.collage {
+   display: grid;
+   flex-wrap: nowrap;
+   border: 3px dotted red;
+}
+
+h2 > .collage {
+   justify-content: center;
+
+}
+
+footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   background-color: var(--nav-background-color);
+   max-width: 1040px;
+   border-radius: 15px;
+   margin: 15px;
+}
+
+footer p {
+   font-size: large;
+   font-weight: 700;
+   flex: 1;
+   position: relative;
+   text-align: center;
+   justify-content: space-between;
+}
+
+footer nav {
+   display: flex;
+   position: relative;
+   justify-content: right;
+}
+
+iframe {
+   justify-content: center;
+   width: 100%;
+}
+
+#personalid {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 5px;
+   margin: 5px;
+   width: 100%;
+   align-items: center;
+   scale: 1.2;
+}
+
+#submit {
+   display: flex;
+   padding: 5px;
+   margin: 5px;
+   width: 100%;
+}
+
+#message {
+   display: flex;
+   padding: 5px;
+   margin: 5px;
+   width: 100%;
+   height: 8rem
+}
+
+input {
+   padding: 5px;
+   margin: 5px;
+}
+#inquiry {
+   display: flex;
+   padding: 5px;
+   margin: 5px;
+   width: 100%;
+   justify-content: center;
+   scale: 1.2;
+}
+
+.employees{
+   display: flex;
+   /* justify-self: center; ;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 1em; */
+   justify-content: space-between;
+   align-items: center;;
+
+}
+
+figcaption {
+   max-width: 100%;
+   text-align: center;
+}
+
+#big_contact_button {
+   width: 100%;
+   border 3px dotted red;
+   background-color: rgb(35, 35, 165);
+   color : white;
+   border-radius: 5px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 1.5em;
+
+}
+
+.options_for_trips {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 1em;
+   background-color: wheat;
+   border-radius: 50px;
+}
+
+.options_for_trips p,.options_for_trips h2 {
+   max-width: 90%;
+   text-align: center;
+   padding-top: .5em;
+}
+
+.options_for_trips img {
+   width: 360px;
+   height: auto;
+   padding: 1em;
+   border-radius: 50px;
+}
+
+.breakdown_box {
+   max-width: 940px;
+   display: flex;
+   padding: 15px;
+   margin: 5px;
+   justify-content: space-around;
+   border: 1px solid black;
+   border-radius: 25px;
+   font-size: medium;
+   background-color: whitesmoke;
+   justify-self: center;
+   margin: auto;
+}
+
+.breakdown_sub_box {
+   border: 1px solid black;
+   border-radius: 15px;
+   padding: 15px;
+   background-color: white;
+   text-align: center;
+   margin: 5px;
+}
+.subheading {
+  font-weight: bold;
+ 
+}
+
+h5 {
+   font-weight: bold;
+   border-bottom: 2px solid black;
+}

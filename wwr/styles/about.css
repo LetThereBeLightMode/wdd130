@@ -48,7 +48,6 @@ p {
    font-size: 1.1em;
    color: var(--secondary-color);
    margin: .3em;
-
 }
 
 header nav a {
@@ -266,6 +265,7 @@ figcaption {
    justify-self: center;
    margin: auto;
 }
+
 .breakdown_sub_box {
    border: 1px solid black;
    border-radius: 15px;
